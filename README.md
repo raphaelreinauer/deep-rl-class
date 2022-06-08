@@ -23,14 +23,15 @@ This course is **self-paced** you can start when you want 🥳.
 | 📆 Publishing date  | 📘 Unit           | 👩‍💻 Hands-on |
 |---------------|----------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | [Published 🥳](https://github.com/huggingface/deep-rl-class/tree/main/unit1#unit-1-introduction-to-deep-reinforcement-learning)  | [An Introduction to Deep Reinforcement Learning](https://github.com/huggingface/deep-rl-class/tree/main/unit1)           | [Train a Deep Reinforcement Learning lander agent to land correctly on the Moon 🌕 using Stable-Baselines3](https://github.com/huggingface/deep-rl-class/blob/main/unit1/unit1.ipynb) |
-| May, the 11th | [Bonus](https://discord.com/channels/879548962464493619/968114737655214080/973937495546925056)                                                    |                                                               |
-| May, the 18th | Q-Learning                                               | Train an agent to cross a Frozen lake in this new version of the environment.                                                                                                        |
-| June, the 1st | Deep Q-Learning and improvements                         | Train a Deep Q-Learning agent to play Space Invaders                                                     |
-|               | Policy-based methods                                     | 🏗️                                                                                                        |
-|               | Actor-Critic Methods                                     | 🏗️                                                                                                        |
-|               | Proximal Policy Optimization (PPO)                       | 🏗️                                                                                                        |
-|               | Decision Transformers and offline Reinforcement Learning | 🏗️                                                                                                        |
-|               | Towards better explorations methods                      | 🏗️                                                                                                        |
+| [Published 🥳](https://github.com/huggingface/deep-rl-class/tree/main/unit1/unit1-bonus) | [Bonus](https://github.com/huggingface/deep-rl-class/tree/main/unit1/unit1-bonus)                                                    |                                                               |
+| [Published 🥳](https://github.com/huggingface/deep-rl-class/blob/main/unit2/README.md)| [Q-Learning](https://github.com/huggingface/deep-rl-class/blob/main/unit2/README.md)                                               | [Train an agent to cross a Frozen lake ⛄ and train an autonomous taxi 🚖](https://github.com/huggingface/deep-rl-class/blob/main/unit2/unit2.ipynb).                                                                                                        |
+| [Published 🥳](https://github.com/huggingface/deep-rl-class/tree/main/unit3#unit-3-deep-q-learning-with-atari-games-) | [Deep Q-Learning](https://github.com/huggingface/deep-rl-class/tree/main/unit3#unit-3-deep-q-learning-with-atari-games-)                      | Train a Deep Q-Learning agent to play Space Invaders using [RL-Baselines3-Zoo](https://github.com/DLR-RM/rl-baselines3-zoo)                                                    |
+| June, the 10th | Bonus: Optuna Hyperparameter Search                         |                                                    |
+| June the 14th | Policy-based methods                                     | 🏗️                                                                                                        |
+|  June the 21th | Actor-Critic Methods                                     | 🏗️                                                                                                        |
+| June the 28th | Proximal Policy Optimization (PPO)                       | 🏗️                                                                                                        |
+| July the 5th | Decision Transformers and offline Reinforcement Learning | 🏗️                                                                                                        |
+| July the 12th | Towards better explorations methods                      | 🏗️                                                                                                        |
 
 
 ## The library you'll learn during this course
@@ -138,7 +139,7 @@ Don’t forget to **introduce yourself when you sign up 🤗**
 
 **I have some feedback**
 
-We want to improve and update the course iteratively with your feedback. If you have some, please send a mail to thomas.simonini@huggingface.co
+We want to improve and update the course iteratively with your feedback. If you have some, please fill this form 👉 https://forms.gle/3HgA7bEHwAmmLfwh9
 
 
 **How much background knowledge is needed?**
@@ -158,3 +159,19 @@ If it's not the case yet, you can check these free resources:
 **Is there a certificate?**
 
 Yes 🎉. You'll **need to upload the eight models with the eight hands-on.**
+
+
+## Citing the project
+
+To cite this repository in publications:
+
+```bibtex
+@misc{deep-rl-class,
+  author = {Simonini, Thomas and Sanseviero, Omar},
+  title = {The Hugging Face Deep Reinforcement Learning Class},
+  year = {2022},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/huggingface/deep-rl-class}},
+}
+```
